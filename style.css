@@ -1,0 +1,44 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(27, 27, 65);
+    font-family: monospace;
+    color: white;
+}
+
+.title {
+    font-size: 40px;
+}
+
+header {
+    font-size: 20px;
+    font-weight: 20px;
+}
+
+.container {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(44, 44, 130);
+    padding: 5px;
+}
+
+input {
+    background-color: transparent;
+    padding: 3px;
+    height: 5vh;
+}
+
+button, input {
+   width: 25vh;
+   color: white;
+   border: 1px solid;
+   border-color: black;
+   font-size: 16px;
+}
+
+button {
+    background-color: rgb(155, 44, 152);
+    height: 6vh;
+    pointer-events: auto;
+}
